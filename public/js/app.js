@@ -3,7 +3,7 @@ let artistArray = [];
 const getApiArtists = function() {
   const BASE_URL = 'https://api.spotify.com/v1/search?';
   const FETCH_URL = BASE_URL + 'q=year:1980-2018&type=artist&market=US&limit=50';
-  const accessToken = 'BQAsUFYUPGzSvcVOzk7k4vuH5eK1Hi-3aIp_DwcjP5N5u__60tYNV2nJU2KtX6axhdRn6Lx-EJ39QnpMn6ao0e1sgYy04ny9StM1JmdTUpuwfE28X3htsltUCSe6K5bazs-ex2RMRF8etnDym6fYASlIinjnUNDE&refresh_token=AQDT0L81xatlsqGSRCbGHQOJfjwjLRzyIWpX5uKYw9Hos1obLODq3ceW8QDU6ROtPVvjgque4jBy9JIVnKOkBKbMu-PUU0YEzVOOVzQkG4IIlZueozwTvdyceZRm6FNOL39IYQ';
+  const accessToken = 'BQCrAT47RcY6TZgBxQspGkXpoY0piekupZpMnNeelKAQ8UCtj2CPorg-qk9FmqUdCakBXCKH8X5mAw2zBZfLPy56LNGOA7nWhUhg_fANNacfJGK9-NDSS-jFlIoYkhtsoTcNPh3Rqv8A-d9tkfGGCE1zrmxsAI_E&refresh_token=AQA4Xz0uAPlWPE5mCrTAFNWNO3y-Aaf6eApYBYMAVs5TWwnxNpTiX_OlRQ5Ma3SNnd7MFOQ2eJ77PcUR4MrxWdAAuKVyjZ0mHeYTfH4nCTDFZBvehznuAFfxTBxWOaU7rCrkCQ';
 
   var myOptions = {
     method: 'GET',
